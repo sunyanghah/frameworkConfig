@@ -22,7 +22,11 @@ spring:
     port: 5672
     username: guest
     password: guest
-    
+  cloud:
+    bus:
+      trace:
+        enabled: true  
+        
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
   typeAliasesPackage: sy.demo.framework.common.dto,sy.demo.framework.resource.entity
