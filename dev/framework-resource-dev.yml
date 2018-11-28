@@ -64,4 +64,4 @@ ribbon.ReadTimeout: 5000
 ribbon.ConnectTimeout: 5000
 
 test:
-  testMessage: this is version B
+  testMessage: this is version C
