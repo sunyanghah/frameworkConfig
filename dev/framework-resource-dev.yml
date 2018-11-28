@@ -70,4 +70,4 @@ management:
         include: refresh,health,info
 
 test:
-  testMessage: this is version C
+  testMessage: this is version D
