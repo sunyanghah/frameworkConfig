@@ -21,7 +21,12 @@ spring:
       validation-timeout: 5000
       # 指定连接数据库的超时时间
       login-timeout: 5
-
+  rabbitmq:
+    host: 47.94.159.51
+    port: 5672
+    username: guest
+    password: guest
+    
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
   typeAliasesPackage: sy.demo.framework.common.dto,sy.demo.framework.resource.entity
