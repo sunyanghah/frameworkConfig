@@ -76,3 +76,8 @@ management:
 
 test:
   testMessage: this is version B
+  
+#txmanager地址
+tm:
+  manager:
+    url: http://127.0.0.1:7000/tx/manager/
