@@ -75,7 +75,7 @@ management:
         include: refresh,health,info
 
 test:
-  testMessage: this is version B
+  testMessage: this is version C
   
 #txmanager地址
 tm:
